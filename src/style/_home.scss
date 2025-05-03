@@ -39,6 +39,15 @@
 }
 .container__home--text--btn button {
   width: 159px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.container__home--text--btn button:hover {
+  background-color: #514f4f;
+  transform: scale(1.03);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
 }
 
 @media (max-width: 450px) {

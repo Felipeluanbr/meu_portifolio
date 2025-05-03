@@ -171,6 +171,15 @@ header a:hover {
 
 .container__home--text--btn button {
   width: 159px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.container__home--text--btn button:hover {
+  background-color: #514f4f;
+  transform: scale(1.03);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
 }
 
 @media (max-width: 450px) {
@@ -398,6 +407,15 @@ header a:hover {
   text-align: center;
   justify-content: space-between;
   position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.container__about--card:hover {
+  background-color: #514f4f;
+  transform: scale(1.03);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
 }
 
 .container__about--card h4 {
@@ -535,6 +553,15 @@ header a:hover {
 .button--primary--dark {
   width: 200px;
   gap: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button--primary--dark:hover {
+  background-color: #514f4f;
+  transform: scale(1.03);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
 }
 
 @media (max-width: 450px) {
@@ -581,6 +608,13 @@ header a:hover {
   color: #ffffff;
 }
 
+@media (max-width: 450px) {
+  .container__footer {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+}
 * {
   box-sizing: border-box;
 }

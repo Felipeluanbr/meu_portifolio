@@ -17,6 +17,15 @@
   text-align: center;
   justify-content: space-between;
   position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.container__about--card:hover {
+  background-color: #514f4f;
+  transform: scale(1.03);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
 }
 
 .container__about--card h4 {

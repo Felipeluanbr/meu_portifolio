@@ -25,3 +25,11 @@
 .container__footer--text {
   color: #ffffff;
 }
+
+@media (max-width: 450px) {
+  .container__footer {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+}
