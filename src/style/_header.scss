@@ -1,5 +1,6 @@
 $White: #ffffff;
 header {
+  width: 100%;
   background: #18181d;
   max-width: 100%;
   display: flex;
@@ -41,14 +42,23 @@ header a:hover {
 }
 
 @media (max-width: 450px) {
+  * {
+    box-sizing: border-box;
+  }
   header {
     display: flex;
+    position: relative;
   }
 
-  header ul {
-    margin-left: 40%;
-  }
-  header .header__link {
+  header ul li a {
+    position: relative;
+
+    margin-left: 80%;
+    left: 100px;
     display: none;
+  }
+  .header__logo {
+    position: relative;
+    left: 130%;
   }
 }

@@ -1,0 +1,78 @@
+@import "./button";
+
+.container__home {
+  height: 540px;
+  margin-top: 150px;
+  display: flex;
+  vertical-align: top;
+}
+
+.container__home--text {
+  max-width: 729px;
+}
+
+.container__home--text h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #808080;
+  padding: 0;
+  margin: 0;
+}
+
+.container__home--text h1 span {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.container__home--text p {
+  font-size: 24px;
+  color: #808080;
+}
+
+.container__home--img {
+  margin-top: 60px;
+}
+
+.container__home--text--btn {
+  display: flex;
+  gap: 16px;
+}
+.container__home--text--btn button {
+  width: 159px;
+}
+
+@media (max-width: 450px) {
+  body {
+    padding: 10px;
+  }
+  .container__home--text {
+    width: 100%;
+  }
+  .container__home {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container__home--text h1 {
+    font-size: 48px;
+    width: 100%;
+  }
+
+  .container__home--text p {
+    width: 100%;
+    text-align: justify;
+  }
+  .container__home--img {
+    display: none;
+  }
+
+  .container__home--text--btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+  }
+  .container__home--text--btn button {
+    width: 90%;
+  }
+}

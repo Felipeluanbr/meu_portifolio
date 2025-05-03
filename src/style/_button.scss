@@ -1,0 +1,68 @@
+.button--primary--dark {
+  all: unset;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 60px;
+  color: #808080;
+  background: #131313;
+  border-radius: 9px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button--primary--dark:hover {
+  color: #ffffff;
+  background: #191919;
+}
+
+.button--primary--ligth {
+  all: unset;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 60px;
+  color: #ffffff;
+  background: #131313;
+  border-radius: 9px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button--secondary--dark {
+  all: unset;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 60px;
+  color: #808080;
+  background: #131313;
+  border-radius: 9px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button--secondary--ligth {
+  all: unset;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 60px;
+  color: #181818;
+  background: #f3f3f3;
+  border-radius: 9px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
