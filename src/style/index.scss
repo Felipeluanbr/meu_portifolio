@@ -2,6 +2,7 @@
 
 @import "./header";
 @import "./home";
+@import "./projects";
 
 * {
   box-sizing: border-box;
@@ -11,6 +12,6 @@ body {
   background: #0d0d0d;
   font-family: "Inter", sans-serif;
   margin: auto;
-  max-width: 1024px;
+  max-width: 1200px;
   padding: 0 5%;
 }
