@@ -1,3 +1,5 @@
+@import "./button";
+
 .container__projects--card {
   width: 100%;
   border: 1px solid #383737;
@@ -21,7 +23,7 @@
   color: #ffffff;
 }
 
-.container__projects--card h2 {
+.container__projects--card h3 {
   max-width: 445px;
   color: #ffffff;
 }
@@ -55,6 +57,33 @@
 }
 .container__projects--card--text--btn a:hover {
   color: #383737;
+}
+
+.container__projects--card-button--primary--dark {
+  all: unset;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin: auto;
+  height: 60px;
+  width: 95%;
+  color: #808080;
+  background: #131313;
+  border-radius: 9px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container__projects--card-button--primary--dark:hover {
+  background-color: #514f4f;
+  transform: scale(1.03);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
 }
 
 @media (max-width: 450px) {
