@@ -553,6 +553,34 @@ header a:hover {
     width: 350px;
   }
 }
+.container__footer {
+  margin-top: 114px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__footer--link {
+  display: flex;
+}
+
+.container__footer--link li {
+  list-style: none;
+}
+
+.container__footer--link a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container__footer--link h4 {
+  color: #ffffff;
+}
+
+.container__footer--text {
+  color: #ffffff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -567,6 +595,12 @@ body {
 
 h2 {
   color: #ffffff;
+}
+
+hr {
+  margin-top: 200px;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 @media (max-width: 450px) {

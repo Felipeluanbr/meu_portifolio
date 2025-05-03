@@ -5,6 +5,7 @@
 @import "./projects";
 @import "./about";
 @import "./contact";
+@import "./footer";
 * {
   box-sizing: border-box;
 }
@@ -19,6 +20,12 @@ body {
 
 h2 {
   color: #ffffff;
+}
+
+hr {
+  margin-top: 200px;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 @media (max-width: 450px) {
