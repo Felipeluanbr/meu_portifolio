@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Pen+Script&display=swap");
+header {
+  background: #18181d;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 33%;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #c5c5c5;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+header a:hover {
+  color: #ffffff;
+  font-size: 19px;
+}
+
+.header__nav {
+  gap: 40px;
+  padding: 0;
+  padding-left: 18px;
+}
+
+.header__sociais {
+  gap: 24px;
+  padding: 0 16px;
+}
+
+@media (max-width: 450px) {
+  header {
+    display: flex;
+  }
+  header ul {
+    margin-left: 40%;
+  }
+  header .header__link {
+    display: none;
+  }
+}
+body {
+  background: #0d0d0d;
+  font-family: "Inter", sans-serif;
+  margin: auto;
+  max-width: 1024px;
+  padding: 0 5%;
+}/*# sourceMappingURL=index.css.map */
