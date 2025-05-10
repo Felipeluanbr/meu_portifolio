@@ -1,1 +1,38 @@
 @import "./header";
+
+.container__about--text {
+  color: #808080;
+  margin-top: 120px;
+}
+
+.container__about--text h1 {
+  margin: 0;
+}
+
+.container__about--text p {
+  margin: 0;
+}
+
+.container__about--text--about {
+  color: #808080;
+}
+
+.container__about--img--about {
+  border: 1px solid #808080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 443px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.container__about--img--about img {
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 450px) {
+  .container__about--text--about {
+    text-align: justify;
+  }
+}
