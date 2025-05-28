@@ -83,6 +83,11 @@ header a:hover {
   background: #191919;
 }
 
+.button--primary--dark a {
+  text-decoration: none;
+  color: #808080;
+}
+
 .button--primary--ligth {
   all: unset;
   font-family: "Inter", sans-serif;
@@ -169,6 +174,10 @@ header a:hover {
   gap: 16px;
 }
 
+.button--primary--dark a {
+  text-decoration: none;
+}
+
 .container__home--text--btn button {
   width: 159px;
   cursor: pointer;
@@ -235,6 +244,11 @@ header a:hover {
 .button--primary--dark:hover {
   color: #ffffff;
   background: #191919;
+}
+
+.button--primary--dark a {
+  text-decoration: none;
+  color: #808080;
 }
 
 .button--primary--ligth {
@@ -471,6 +485,11 @@ header a:hover {
 .button--primary--dark:hover {
   color: #ffffff;
   background: #191919;
+}
+
+.button--primary--dark a {
+  text-decoration: none;
+  color: #808080;
 }
 
 .button--primary--ligth {

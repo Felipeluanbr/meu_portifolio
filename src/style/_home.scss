@@ -37,6 +37,10 @@
   display: flex;
   gap: 16px;
 }
+.button--primary--dark a {
+  text-decoration: none;
+}
+
 .container__home--text--btn button {
   width: 159px;
   cursor: pointer;
